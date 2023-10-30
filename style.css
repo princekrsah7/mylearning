@@ -1,0 +1,14 @@
+nav{
+
+}
+div{
+    text-align:left;
+    font-weight: normal;
+}
+.background{
+    background-image:url(image.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    backface-visibility: 50%;
