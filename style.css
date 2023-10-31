@@ -17,6 +17,11 @@ nav{
     background-color: rgb(122, 139, 13);
     padding: 20px;
     font-weight: 700;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+
 
 }
 h1{
@@ -24,3 +29,8 @@ h1{
     color: white;
     text-decoration-line: underline;
 }
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
