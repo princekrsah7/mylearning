@@ -12,3 +12,9 @@ div{
     background-position: top;
     background-attachment: fixed;
     backface-visibility: 50%;
+}
+nav{
+    background-color: rgb(122, 139, 13);
+    padding: 20px;
+    font-weight: 700;
+}
