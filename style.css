@@ -17,4 +17,10 @@ nav{
     background-color: rgb(122, 139, 13);
     padding: 20px;
     font-weight: 700;
+
+}
+h1{
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
 }
