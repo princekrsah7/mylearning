@@ -4,63 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>carausal</title>
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-        html{
-            font-size: 62.5%;
-        }
-        body{
-            height: 100vh;
-            display: grid;
-            place-items: center;
-        }
-
-        .container-image{
-            width: 60vw;
-            height: 50rem;
-            border-radius: 1rem;
-            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-            background-image: url(images/image1.jpg);
-            background-size: cover;
-            animation: gallery 10s linear infinite; 
-        }
-
-        @keyframes gallery{
-            0%{
-                background-image: url(images/image1.jpg);
-            }
-            10%{
-                background-image: url(images/image2.jpeg);
-            }
-            20%{
-                background-image: url(images/image3.jpeg);
-            }
-            30%{
-                background-image: url(images/image4.webp);
-            }
-            40%{
-                background-image: url(images/image5.jpeg);
-            }
-            50%{
-                background-image: url(images/image6.webp);
-            }
-            60%{
-                background-image: url(images/image7.webp);
-            }
-            70%{
-                background-image: url(images/image8.webp);
-            }
-            100%{
-                background-image: url(images/image9.webp);
-            } 
-
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container-image"></div>
